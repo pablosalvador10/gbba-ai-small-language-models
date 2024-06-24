@@ -1,0 +1,51 @@
+Question,Kind of Query
+What is Contoso's stance on remote work?,Concept Seeking queries
+How does Contoso ensure data security?,Concept Seeking queries
+What are the benefits offered by Contoso?,Concept Seeking queries
+Explain Contoso's training and development policy.,Concept Seeking queries
+What is Contoso's policy on workplace diversity?,Concept Seeking queries
+"""remote work policy""",Exact snippet search
+"""data security measures""",Exact snippet search
+"""employee benefits package""",Exact snippet search
+"""training and development programs""",Exact snippet search
+"""workplace diversity initiatives""",Exact snippet search
+Contoso remote work policy,Web search-like queries
+Contoso data security,Web search-like queries
+Contoso employee benefits,Web search-like queries
+Contoso training programs,Web search-like queries
+Contoso diversity policy,Web search-like queries
+Telecommuting rules at Contoso,Low query/doc term overlap
+How does Contoso protect data?,Low query/doc term overlap
+What perks do Contoso employees get?,Low query/doc term overlap
+Contoso career advancement programs,Low query/doc term overlap
+Contoso inclusivity efforts,Low query/doc term overlap
+Can employees work from home?,Fact seeking queries
+What are the data protection measures?,Fact seeking queries
+What health benefits are provided?,Fact seeking queries
+Are there training opportunities?,Fact seeking queries
+Does Contoso promote diversity?,Fact seeking queries
+Remote work,Keyword queries
+Data security,Keyword queries
+Employee benefits,Keyword queries
+Training programs,Keyword queries
+Diversity policy,Keyword queries
+Rmote work policy,Queries with misspellings
+Dat security measures,Queries with misspellings
+Emploe benefits package,Queries with misspellings
+Traning and development,Queries with misspellings
+Wrkplace diversity,Queries with misspellings
+Describe the remote work policy at Contoso and how it applies to different employee classifications.,Long queries
+Explain the various data security measures in place at Contoso to protect employee and company information.,Long queries
+"What benefits are included in the Contoso employee benefits package, and how do employees qualify for them?",Long queries
+"Detail the training and development programs available to Contoso employees, including any eligibility requirements.",Long queries
+Outline the initiatives Contoso has undertaken to promote workplace diversity and inclusion.,Long queries
+What is the remote work policy at Contoso?,Medium queries
+How does Contoso ensure data security?,Medium queries
+What benefits do Contoso employees receive?,Medium queries
+What training programs are offered at Contoso?,Medium queries
+What is Contoso's diversity policy?,Medium queries
+Remote work policy,Short queries
+Data security,Short queries
+Benefits package,Short queries
+Training programs,Short queries
+Diversity initiatives,Short queries

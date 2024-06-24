@@ -1,0 +1,201 @@
+Question,Kind of Query
+What is the purpose of the Contoso Employee Handbook?,Concept Seeking queries
+How does Contoso define at-will employment?,Concept Seeking queries
+What are the classifications of employees at Contoso?,Concept Seeking queries
+Explain Contoso's policy on equal employment opportunity.,Concept Seeking queries
+What does Contoso's confidentiality policy entail?,Concept Seeking queries
+Describe Contoso's policy on the employment of minors.,Concept Seeking queries
+How does Contoso handle the employment of relatives?,Concept Seeking queries
+What is the introductory period at Contoso?,Concept Seeking queries
+How does Contoso manage personnel records and employee references?,Concept Seeking queries
+What are the privacy policies at Contoso?,Concept Seeking queries
+Explain the immigration law compliance at Contoso.,Concept Seeking queries
+What is Contoso's stance on political neutrality?,Concept Seeking queries
+Describe the pay periods and paydays at Contoso.,Concept Seeking queries
+How does Contoso handle overtime for nonexempt employees?,Concept Seeking queries
+What are the rest and meal period policies at Contoso?,Concept Seeking queries
+Explain the payroll deduction process at Contoso.,Concept Seeking queries
+What is Contoso's wage garnishment policy?,Concept Seeking queries
+How does Contoso handle direct deposit for employees?,Concept Seeking queries
+What is the anti-harassment and discrimination policy at Contoso?,Concept Seeking queries
+Describe the dress code policy at Contoso.,Concept Seeking queries
+"""Employment-At-Will""",Exact snippet search
+"""Equal Employment Opportunity & Americans with Disabilities Act""",Exact snippet search
+"""Confidential Information""",Exact snippet search
+"""Employment of Minors""",Exact snippet search
+"""Introductory Period""",Exact snippet search
+"""Personnel Records and Employee References""",Exact snippet search
+"""Immigration Law Compliance""",Exact snippet search
+"""Political Neutrality""",Exact snippet search
+"""Pay Periods and Paydays""",Exact snippet search
+"""Overtime""",Exact snippet search
+"""Rest and Meal Periods""",Exact snippet search
+"""Time Cards""",Exact snippet search
+"""Payroll Deductions""",Exact snippet search
+"""Wage Garnishment""",Exact snippet search
+"""Direct Deposit""",Exact snippet search
+"""Anti-Harassment and Discrimination""",Exact snippet search
+"""Attendance""",Exact snippet search
+"""Discipline and Standards of Conduct""",Exact snippet search
+"""Dress Code""",Exact snippet search
+"""Safety""",Exact snippet search
+Contoso Employee Handbook,Web search-like queries
+At-will employment policy,Web search-like queries
+Equal employment opportunity,Web search-like queries
+Confidentiality policy,Web search-like queries
+Employment of minors,Web search-like queries
+Introductory period,Web search-like queries
+Personnel records management,Web search-like queries
+Privacy policy,Web search-like queries
+Immigration law compliance,Web search-like queries
+Political neutrality,Web search-like queries
+Pay periods Contoso,Web search-like queries
+Overtime policy,Web search-like queries
+Rest and meal breaks,Web search-like queries
+Time card policy,Web search-like queries
+Payroll deductions,Web search-like queries
+Wage garnishment process,Web search-like queries
+Direct deposit setup,Web search-like queries
+Anti-harassment policy,Web search-like queries
+Dress code guidelines,Web search-like queries
+Safety procedures,Web search-like queries
+Employment status types,Low query/doc term overlap
+Hiring minors regulations,Low query/doc term overlap
+Initial employment period,Low query/doc term overlap
+Handling employee records,Low query/doc term overlap
+Employee privacy rights,Low query/doc term overlap
+Immigration documentation,Low query/doc term overlap
+Political activity at work,Low query/doc term overlap
+Payment schedules,Low query/doc term overlap
+Working overtime rules,Low query/doc term overlap
+Break times policy,Low query/doc term overlap
+Tracking work hours,Low query/doc term overlap
+Salary deductions,Low query/doc term overlap
+Court-ordered deductions,Low query/doc term overlap
+Automatic paycheck deposit,Low query/doc term overlap
+Workplace harassment,Low query/doc term overlap
+Employee attendance rules,Low query/doc term overlap
+Workplace behavior standards,Low query/doc term overlap
+Appropriate work attire,Low query/doc term overlap
+Ensuring workplace safety,Low query/doc term overlap
+Substance use policy,Low query/doc term overlap
+How often are employees paid?,Fact seeking queries
+How is overtime calculated?,Fact seeking queries
+What is the policy on rest breaks?,Fact seeking queries
+How are time cards used?,Fact seeking queries
+What deductions are taken from paychecks?,Fact seeking queries
+What is wage garnishment?,Fact seeking queries
+Is direct deposit mandatory?,Fact seeking queries
+What constitutes harassment?,Fact seeking queries
+What is the dress code?,Fact seeking queries
+How are safety issues reported?,Fact seeking queries
+What is the policy on substance use?,Fact seeking queries
+Can employees be searched at work?,Fact seeking queries
+How is email usage monitored?,Fact seeking queries
+Are personal cell phones allowed at work?,Fact seeking queries
+What health insurance plans are offered?,Fact seeking queries
+Is there a 401(k) plan?,Fact seeking queries
+What are the commuter benefits?,Fact seeking queries
+What is COBRA?,Fact seeking queries
+How many sick days are provided?,Fact seeking queries
+What holidays are observed?,Fact seeking queries
+Employment classifications,Keyword queries
+At-will policy,Keyword queries
+EEO policy,Keyword queries
+Confidentiality,Keyword queries
+Minors employment,Keyword queries
+Introductory period,Keyword queries
+Personnel records,Keyword queries
+Privacy,Keyword queries
+Immigration compliance,Keyword queries
+Political neutrality,Keyword queries
+Pay periods,Keyword queries
+Overtime,Keyword queries
+Break periods,Keyword queries
+Time cards,Keyword queries
+Payroll deductions,Keyword queries
+Wage garnishment,Keyword queries
+Direct deposit,Keyword queries
+Harassment policy,Keyword queries
+Dress code,Keyword queries
+Safety policy,Keyword queries
+Emploment clasifcations,Queries with misspellings
+Atwil policy,Queries with misspellings
+Equal employmnt oportunity,Queries with misspellings
+Confidentiaity,Queries with misspellings
+Minorz employment,Queries with misspellings
+Introdutory period,Queries with misspellings
+Personel records,Queries with misspellings
+Prvacy,Queries with misspellings
+Immigartion compliance,Queries with misspellings
+Politcal neutrality,Queries with misspellings
+Pay perods,Queries with misspellings
+Overime,Queries with misspellings
+Brake periods,Queries with misspellings
+Tim cards,Queries with misspellings
+Payroll dedutions,Queries with misspellings
+Wage garnshment,Queries with misspellings
+Direct deopsit,Queries with misspellings
+Harrassment policy,Queries with misspellings
+Drss code,Queries with misspellings
+Saftey policy,Queries with misspellings
+Explain the concept of employment-at-will and how it affects employees at Contoso.,Long queries
+Describe the different employee classifications at Contoso and their implications.,Long queries
+"What are the confidentiality policies at Contoso, and how do they impact employees' daily work?",Long queries
+How does Contoso ensure compliance with equal employment opportunity laws?,Long queries
+What procedures does Contoso follow to maintain employee privacy and data protection?,Long queries
+Outline the policies for employing minors at Contoso.,Long queries
+Explain the introductory period for new employees at Contoso and its purpose.,Long queries
+What are the policies regarding personnel records and employee references at Contoso?,Long queries
+How does Contoso manage immigration law compliance for its employees?,Long queries
+Describe the political neutrality policy at Contoso and its significance.,Long queries
+What are the rules and regulations regarding pay periods and paydays at Contoso?,Long queries
+How does Contoso handle overtime for its employees?,Long queries
+What are the guidelines for rest and meal periods at Contoso?,Long queries
+Explain the process and importance of keeping accurate time cards at Contoso.,Long queries
+"What types of payroll deductions are made at Contoso, and why?",Long queries
+How does Contoso manage wage garnishment?,Long queries
+What is the policy on direct deposit of paychecks at Contoso?,Long queries
+How does Contoso handle cases of harassment and discrimination?,Long queries
+What are the dress code requirements for employees at Contoso?,Long queries
+Describe the safety policies at Contoso and how employees can contribute to a safe workplace.,Long queries
+What is the at-will employment policy at Contoso?,Medium queries
+How are employees classified at Contoso?,Medium queries
+What is the confidentiality policy at Contoso?,Medium queries
+How does Contoso ensure equal employment opportunity?,Medium queries
+What is the introductory period for new hires at Contoso?,Medium queries
+How are personnel records managed at Contoso?,Medium queries
+What are the privacy policies at Contoso?,Medium queries
+How does Contoso comply with immigration laws?,Medium queries
+What is Contoso's policy on political neutrality?,Medium queries
+When are employees paid at Contoso?,Medium queries
+How is overtime handled at Contoso?,Medium queries
+What are the rules for rest breaks at Contoso?,Medium queries
+How are time cards used at Contoso?,Medium queries
+What deductions are taken from paychecks at Contoso?,Medium queries
+What is the wage garnishment process at Contoso?,Medium queries
+How does direct deposit work at Contoso?,Medium queries
+What is the anti-harassment policy at Contoso?,Medium queries
+What are the dress code guidelines at Contoso?,Medium queries
+How does Contoso ensure workplace safety?,Medium queries
+What is the policy on substance use at Contoso?,Medium queries
+Employment types,Short queries
+At-will policy,Short queries
+EEO policy,Short queries
+Confidentiality,Short queries
+Minors employment,Short queries
+Intro period,Short queries
+Personnel files,Short queries
+Privacy policy,Short queries
+Immigration compliance,Short queries
+Political neutrality,Short queries
+Pay schedule,Short queries
+Overtime rules,Short queries
+Break times,Short queries
+Timekeeping,Short queries
+Pay deductions,Short queries
+Garnishment,Short queries
+Direct deposit,Short queries
+Harassment,Short queries
+Dress code,Short queries
+Safety,Short queries

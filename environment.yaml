@@ -1,11 +1,12 @@
-name: my-template-environment
+name: fine-tuning-transformers
 channels:
   - conda-forge
   - defaults
+  - jupyter
 dependencies:
-  - python=3.9
-  - pip
+  - python=3.10
+  - pip=24.0
+  - ipykernel
   - pip:
     - -r requirements.txt
     - -r requirements-codequality.txt
-    - -r requirements-pipelines.txt
