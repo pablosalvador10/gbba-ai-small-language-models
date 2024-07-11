@@ -1,88 +1,41 @@
-# Azure AI Solutions Quick Start Template <img src="./utils/images/azure_logo.png" alt="Azure Logo" style="width:30px;height:30px;"/>
+# Small Language Models Exploration <img src="./utils/images/azure_logo.png" alt="Azure Logo" style="width:30px;height:30px;"/>
 
-Welcome to the Azure AI Solutions Quick Start Template! This repository is designed to be a rapid launchpad for your Azure AI projects. Whether you're working in an enterprise or academic environment, this template integrates best practices to ensure a smooth development journey from start to finish.
+Welcome to our project focused on exploring and fine-tuning small language models. This repository is designed to guide you through the process of working with smaller language models, demonstrating their capabilities and how they can be fine-tuned for specific tasks.
 
-## 💼 Using this Template: Your Gateway to Advanced AI Development & Collaboration!
+## 🚀 Getting Started
 
-- **🔄 Development Workflow**: Get to know our optimized workflow, designed to foster effective collaboration and a focus on product-centric development. See our [CONTRIBUTING GUIDE](./CONTRIBUTING.md) for more details.
+This project provides a comprehensive guide to fine-tuning small language models for various applications. Whether you're looking to improve a model's performance on a specific dataset or adapt it for a unique use case, this repository has the resources you need.
 
-- **🚀 Advanced AI Development Process**: Understand the specifics of managing Azure AI projects, from issue reporting to pull requests, while adhering to best practices in advanced feature development and complex system troubleshooting.
+### Prerequisites
 
-- **🔍 Testing & QA for AI Systems**: Learn about the importance of rigorous testing in AI projects and discover efficient development and testing techniques tailored for AI systems with tools like Jupyter Notebooks and `%%ipytest`.
+Before diving into model fine-tuning, ensure you have the following:
 
-- **🔢 Version & Branching Strategies for AI Projects**: Get to know our versioning system and explore the project’s branching strategy, which ensures smooth transitions between development, staging, and production, especially for AI-driven applications.
+- Python 3.8 or later
+- Access to a GPU (recommended for model training)
 
-- To stay updated with the latest developments and document significant changes to this project, please refer to [CHANGELOG.md](CHANGELOG.md).
+## 🤖 Exploring Small Language Models
 
-## Requirements
+Small language models offer a unique balance between performance and resource efficiency, making them ideal for a wide range of applications. This project covers several key areas:
 
-> Modify as needed by project 
+- **Understanding Small Language Models**: Learn about the architecture and capabilities of small language models.
+- **Fine-tuning Techniques**: Explore strategies for fine-tuning models on custom datasets.
+- **Practical Applications**: Discover how to apply fine-tuned models to real-world tasks.
 
-### Setting Up Azure AI Services
+## 🛠️ Fine-tuning Your Model
 
-- Azure OpenAI Service: You need to create an Azure OpenAI service instance and obtain the API key. [start here](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
-- Azure Speech AI Service: Required for speech-to-text conversion. Set up the service and get the subscription key and region. [start here](https://azure.microsoft.com/en-us/products/ai-services/ai-speech)
-- Azure Language Service: Necessary for language understanding and intent recognition.[start here](https://azure.microsoft.com/en-us/products/ai-services/ai-language)
+The fine-tuning process is crucial for adapting pre-trained models to your specific needs. Follow our step-by-step guide to fine-tune a small language model:
 
-### Configuration Env variables
+1. **Prepare Your Dataset**: Format your data according to the model's requirements.
+2. **Choose a Model**: Select a small language model that best fits your task.
+3. **Fine-tune**: Use our scripts to fine-tune the model on your dataset.
+4. **Evaluate**: Assess the model's performance and make adjustments as needed.
 
-We will now use environment variables to store our configuration. This is a more secure practice as it prevents sensitive data from being accidentally committed and pushed to version control systems.
+## 📚 Resources
 
-Create a `.env` file in your project root and add the following variables:
+- **Model Documentation**: For detailed information on the models and their APIs, visit [Model Docs]().
+- **Tutorials**: Check out our [Tutorials]() for hands-on guides on using and fine-tuning small language models.
 
-```env
-# Your Azure Speech Service subscription key
-SPEECH_KEY=<Your_Azure_Speech_Service_Subscription_Key>
+## 🤝 Contributing
 
-# Your Azure Speech Service region
-SPEECH_REGION=<Your_Azure_Speech_Service_Region>
+Interested in contributing to the project? We welcome contributions of all forms. Please refer to our [CONTRIBUTING guide](./CONTRIBUTING.md) for more information on how to get involved.
 
-# Your Azure Machine Learning workspace key
-INTENT_KEY=<Your_Azure_Machine_Learning_Workspace_Key>
-
-# Your Azure OpenAI API key
-OPENAI_KEY=<Your_Azure_OpenAI_API_Key>
-
-# The model used for chat
-CHAT_MODEL=<Your_Chat_Model>
-
-# The model used for completions
-COMPLETION_MODEL=<Your_Completion_Model>
-
-# The base URL for the OpenAI API
-OPENAI_API_BASE=<Your_OpenAI_API_Base_URL>
-
-# The version of the OpenAI API
-OPENAI_API_VERSION=<Your_OpenAI_API_Version>
-
-# Your Azure Storage connection string
-AZURE_STORAGE_CONNECTION_STRING=<Your_Azure_Storage_Connection_String>
-``` 
-
-`SPEECH_KEY` and `SPEECH_REGION` are used for the Azure Speech Service.
-`INTENT_KEY` is used for the Azure Machine Learning workspace.
-`OPENAI_KEY`, `CHAT_MODEL`, `COMPLETION_MODEL`, `OPENAI_API_BASE`, and `OPENAI_API_VERSION` are used for the Azure OpenAI API.
-`AZURE_STORAGE_CONNECTION_STRING` is used for Azure Storage.
-
-> 📌 Note Remember not to commit the .env file to your version control system. Add it to your .gitignore file to prevent it from being tracked.
-
-## 🌲 Project Tree Structure
-
-```markdown
-📂 gbbai-azure-ai-template
-┣ 📂 notebooks <- For development, EDA, and quick testing (Jupyter notebooks for analysis and development).
-┣ 📂 src <- Houses main source code for data processing, feature engineering, modeling, inference, and evaluation.
-┣ 📂 test <- Runs unit and integration tests for code validation and QA.
-┣ 📂 utils <- Contains utility functions and shared code used throughout the project.
-┣ 📜 .env.sample <- Sample environment variables file. Replace with your own.
-┣ 📜 .pre-commit-config.yaml <- Config for pre-commit hooks ensuring code quality and consistency.
-┣ 📜 01-workshop.ipynb <- Jupyter notebook for the workshop.
-┣ 📜 CHANGELOG.md <- Logs project changes, updates, and version history.
-┣ 📜 USAGE.md <- Guidelines for using this template.
-┣ 📜 environment.yaml <- Conda environment configuration.
-┣ 📜 Makefile <- Simplifies common development tasks and commands.
-┣ 📜 pyproject.toml <- Configuration file for build system requirements and packaging-related metadata.
-┣ 📜 README.md <- Overview, setup instructions, and usage details of the project.
-┣ 📜 requirements-codequality.txt <- Requirements for code quality tools and libraries.
-┣ 📜 requirements.txt <- General project dependencies.
-```

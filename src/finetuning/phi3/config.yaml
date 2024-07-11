@@ -1,0 +1,25 @@
+config:
+  data_directory: "./data"
+  cloud_storage_directory: "./cloud"
+  model_identifier: "microsoft/Phi-3-mini-4k-instruct"
+  debug_mode_enabled: true
+  use_low_priority_vm_option: true
+
+training_settings:
+  azure_environment_name: "llm-finetuning-phi3-2024-07-10"
+  azure_compute_cluster_name: "gpu-cluster-phi3"
+  azure_compute_cluster_vm_size: "Standard_NC12s_v3"  # 1 x A100 (80GB)
+  epochs: 1
+  batch_size_training: 8
+  batch_size_evaluation: 8
+  output_model_directory: "./outputs"
+  wandb_api_key: ""
+  wandb_project_name: ""
+  wandb_run_name: ""
+  
+serving_configuration:
+  azure_environment_name: "llm-serving-phi3-2024-05-27"
+  azure_model_name: "phi3-finetuned-model-2024-05-27"
+  azure_endpoint_name: "phi3-inference-endpoint"
+  azure_deployment_name: "phi3-blue-deployment"
+  azure_serving_cluster_vm_size: "Standard_NC6s_v3"
